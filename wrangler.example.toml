@@ -104,3 +104,5 @@ run_worker_first = true
 [triggers]
 # 单一 15 分钟触发器救援实例桥接；Worker 在 UTC 19:00 的轮次同时执行每日 GC，节省账户级 cron 配额。
 crons = ["*/15 * * * *"]
+
+# deploy automation check 202611041357
