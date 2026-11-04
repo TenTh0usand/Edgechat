@@ -1,9 +1,0 @@
-name: Push Probe
-on:
-  push:
-    branches: [master, main]
-jobs:
-  probe:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo probe-ok
